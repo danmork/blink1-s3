@@ -1,0 +1,29 @@
+{
+  "name": "blink1-s3",
+  "version": "1.0.0",
+  "description": "NodeJS app to control a ThingM blink(1) light from an Amazon S3 color file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danmork/blink1-s3.git"
+  },
+  "keywords": [
+    "Blink1",
+    "S3"
+  ],
+  "author": "Dan Mork",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danmork/blink1-s3/issues"
+  },
+  "homepage": "https://github.com/danmork/blink1-s3#readme",
+  "dependencies": {
+    "aws-sdk": "^2.7.10",
+    "color-name": "^1.1.1",
+    "node-blink1": "^0.2.2"
+  }
+}
